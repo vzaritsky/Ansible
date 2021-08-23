@@ -1,0 +1,6 @@
+---
+- name: Monit install and configuration
+  hosts: all
+  become: true
+  roles:
+    - role: monit
